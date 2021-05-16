@@ -34,7 +34,6 @@ def generate():
 
 
 	return json.dumps(send_data), 200
-
 # sends the x and y coordinates to the client
 @app.route("/regenerate", methods = ["POST"])
 def regenerate():
